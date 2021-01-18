@@ -5,8 +5,6 @@
 Также класс должен считать количество подсчетов температуры и возвращать это значение с помощью статического метода.
 '''
 
-from typing import List
-
 
 class Converter:
     __count: int = 0
@@ -27,5 +25,4 @@ class Converter:
     @staticmethod
     def get_count() -> int:
         return Converter.__count
-
 
