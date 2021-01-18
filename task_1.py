@@ -3,4 +3,14 @@
 который при вызове возвращает количество созданных объектов класса «Дробь»
 """
 
+
 class A:
+    __count = 0
+
+    def __init__(self):
+        A.__count += 1
+
+    @staticmethod
+    def get_count():
+        return A.__count
+
