@@ -16,4 +16,3 @@ class Converter:
     def eng_to_metr() -> dict:
         return {"Километры": Converter.mile * 1.609, "Метры": Converter.mile * 1609, "Сантиметры": Converter.mile \
                                                                                                    * 160934}
-
