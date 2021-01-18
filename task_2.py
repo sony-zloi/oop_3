@@ -9,7 +9,6 @@ from typing import List
 
 
 class Converter:
-    __report: List[float] = []
     __count: int = 0
     far: float
     celsius: float
